@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+    <Metadata>
+        <UUID>d586a20a-7a2f-439e-b14e-74bf5ff54ed9</UUID>
+        <Name>Xchanging Cloud Finish Package for CentOS</Name>
+        <Description>Determines which data center the server is located and configures DNS resolution.
+Appends FQDN to hostname.
+Installs custom packages for configuration and server management.</Description>
+    </Metadata>
+    <Parameters>
+
+    </Parameters>
+    <Execution>
+        <Mode>Ssh</Mode>
+        <Command>install.sh</Command>
+        <Persistent>false</Persistent>
+        <RebootOnSuccess>true</RebootOnSuccess>
+    </Execution>
+</Manifest>
