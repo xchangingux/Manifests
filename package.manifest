@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Manifest>
     <Metadata>
-        <UUID>9650a611-9669-43af-b6e5-320e5b48971e</UUID>
+        <UUID>e613a00e-b29d-40cb-9152-602ea45a588a</UUID>
         <Name>Xchanging Cloud CentOS Finish Script</Name>
         <Description>Determines which data center the server is located and configures DNS resolution.
-Appends FQDN to hostname
-Installs custom packages for configuration and server management</Description>
+Appends FQDN to hostname.
+Installs custom packages for configuration and server management.</Description>
     </Metadata>
     <Parameters>
 
