@@ -68,7 +68,7 @@ if [ ! -x "$PupExec" ] || [ ! -r "$PupConf" ];
     exit 1
   else
     cp ${PupConf}{,.$$}
-    sed -i -e '/#/d' -e '/^$/d' $PupConf
+    sed -i -e '/#/d' -e '/^$/d' $PupConf -e "\$a\ \ \ \ \server = gb3mgmtsrv24.xchangingcloud.local" -e "\$a\ \ \ \ \environment = mgmt" $PupConf
     chattr +i $PupConf
 fi
 
