@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Manifest>
     <Metadata>
-        <UUID>e613a00e-b29d-40cb-9152-602ea45a588a</UUID>
+        <UUID>79e0429c-1c13-42c3-ab19-48d3806ea560</UUID>
         <Name>Xchanging Cloud CentOS Finish Script</Name>
         <Description>Determines which data center the server is located and configures DNS resolution.
 Appends FQDN to hostname.
