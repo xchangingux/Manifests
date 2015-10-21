@@ -75,4 +75,4 @@ fi
 # --
 # -- Schedule puppet agent via root cron (every 5 minutes)
 # --
-puppet resource cron puppet-agent ensure=present user=root minute=5 command='/usr/bin/puppet agent --onetime --no-daemonize --splay'
+puppet resource cron puppet-agent ensure=present user=root minute='*/5' command='/usr/bin/puppet agent --onetime --no-daemonize'
